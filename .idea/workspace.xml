@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cd1f31b-8b9c-4364-8111-82d4c581cbc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fila_nao_duravel_mensagem_nao_persistente/Consumidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fila_nao_duravel_mensagem_nao_persistente/Produtor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Consumidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Consumidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Produtor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Produtor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Consumidor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Produtor.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +33,13 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="1SCdrDcJcGjon4MkVLBh4qG9ec6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,7 +50,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,45 +64,86 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Produtor (2)">
-    <configuration name="Consumidor (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Consumidor" />
+  <component name="RunManager" selected="Application.fila_nao_duravel_mensagem_nao_persistente.Produtor">
+    <configuration name="Consumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fila_duravel_mensagens_nao_persistentes.Consumidor" />
       <module name="RabbitMQSala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fila_duravel_mensagens_nao_persistentes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Consumidor (2)" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Consumidor" />
+    <configuration name="Produtor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fila_duravel_mensagem_persistente.Produtor" />
       <module name="RabbitMQSala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fila_duravel_mensagem_persistente.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Produtor (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Produtor" />
+    <configuration name="fila_duravel_mensagens_nao_persistentes.Produtor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fila_duravel_mensagens_nao_persistentes.Produtor" />
       <module name="RabbitMQSala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fila_duravel_mensagens_nao_persistentes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Produtor (2)" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Produtor" />
+    <configuration name="fila_nao_duravel_mensagem_nao_persistente.Consumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fila_nao_duravel_mensagem_nao_persistente.Consumidor" />
       <module name="RabbitMQSala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fila_nao_duravel_mensagem_nao_persistente.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fila_nao_duravel_mensagem_nao_persistente.Produtor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fila_nao_duravel_mensagem_nao_persistente.Produtor" />
+      <module name="RabbitMQSala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fila_nao_duravel_mensagem_nao_persistente.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Consumidor (1)" />
-      <item itemvalue="Application.Consumidor (2)" />
-      <item itemvalue="Application.Produtor (2)" />
-      <item itemvalue="Application.Produtor (1)" />
+      <item itemvalue="Application.Consumidor" />
+      <item itemvalue="Application.Produtor" />
+      <item itemvalue="Application.fila_duravel_mensagens_nao_persistentes.Produtor" />
+      <item itemvalue="Application.fila_nao_duravel_mensagem_nao_persistente.Consumidor" />
+      <item itemvalue="Application.fila_nao_duravel_mensagem_nao_persistente.Produtor" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Consumidor (1)" />
-        <item itemvalue="Application.Produtor (1)" />
+        <item itemvalue="Application.fila_nao_duravel_mensagem_nao_persistente.Produtor" />
+        <item itemvalue="Application.fila_nao_duravel_mensagem_nao_persistente.Consumidor" />
+        <item itemvalue="Application.fila_duravel_mensagens_nao_persistentes.Produtor" />
+        <item itemvalue="Application.Consumidor" />
+        <item itemvalue="Application.Produtor" />
       </list>
     </recent_temporary>
   </component>
