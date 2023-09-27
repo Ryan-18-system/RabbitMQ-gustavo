@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cd1f31b-8b9c-4364-8111-82d4c581cbc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fila_nao_duravel_mensagem_nao_persistente/Consumidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fila_nao_duravel_mensagem_nao_persistente/Produtor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Consumidor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Produtor.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +60,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.fila_nao_duravel_mensagem_nao_persistente.Produtor">
-    <configuration name="Consumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fila_duravel_mensagens_nao_persistentes.Consumidor" />
+  <component name="RunManager" selected="Application.roteamento.Produtor">
+    <configuration name="ConsumidorError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="roteamento.ConsumidorError" />
       <module name="RabbitMQSala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fila_duravel_mensagens_nao_persistentes.*" />
+          <option name="PATTERN" value="roteamento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,25 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Produtor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fila_duravel_mensagem_persistente.Produtor" />
+    <configuration name="ConsumidorInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="roteamento.ConsumidorInfo" />
       <module name="RabbitMQSala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fila_duravel_mensagem_persistente.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="fila_duravel_mensagens_nao_persistentes.Produtor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fila_duravel_mensagens_nao_persistentes.Produtor" />
-      <module name="RabbitMQSala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fila_duravel_mensagens_nao_persistentes.*" />
+          <option name="PATTERN" value="roteamento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,20 +113,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="roteamento.Produtor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="roteamento.Produtor" />
+      <module name="RabbitMQSala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="roteamento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Consumidor" />
-      <item itemvalue="Application.Produtor" />
-      <item itemvalue="Application.fila_duravel_mensagens_nao_persistentes.Produtor" />
+      <item itemvalue="Application.ConsumidorError" />
+      <item itemvalue="Application.ConsumidorInfo" />
       <item itemvalue="Application.fila_nao_duravel_mensagem_nao_persistente.Consumidor" />
       <item itemvalue="Application.fila_nao_duravel_mensagem_nao_persistente.Produtor" />
+      <item itemvalue="Application.roteamento.Produtor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.roteamento.Produtor" />
+        <item itemvalue="Application.ConsumidorInfo" />
+        <item itemvalue="Application.ConsumidorError" />
         <item itemvalue="Application.fila_nao_duravel_mensagem_nao_persistente.Produtor" />
         <item itemvalue="Application.fila_nao_duravel_mensagem_nao_persistente.Consumidor" />
-        <item itemvalue="Application.fila_duravel_mensagens_nao_persistentes.Produtor" />
-        <item itemvalue="Application.Consumidor" />
-        <item itemvalue="Application.Produtor" />
       </list>
     </recent_temporary>
   </component>
